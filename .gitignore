@@ -1,0 +1,34 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments (not needed for Poetry, but just in case)
+.venv/
+env/
+venv/
+
+# Poetry specific files
+poetry.lock.*
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Logs and debugging
+*.log
+*.trace
+*.error
+*.out
+*.stacked/**/*.lock
+__pycheats__
+
+-files
+.env

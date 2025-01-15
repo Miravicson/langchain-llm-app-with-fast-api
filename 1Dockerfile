@@ -1,0 +1,12 @@
+FROM python:3.12-rc-buster
+
+RUN pip install poetry==2.0.1
+
+WORKDIR /app
+
+COPY . .
+RUN touch README.md
+
+RUN poetry install
+
+ENTRYPOINT [ "poetry", "run", "fastapi", "run" ]
