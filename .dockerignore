@@ -4,3 +4,4 @@ README.md
 .mypy_cache
 __pycache__
 **/__pycache__
+.env*
